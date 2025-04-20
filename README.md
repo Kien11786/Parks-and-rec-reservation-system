@@ -1,4 +1,4 @@
-# CityConnect 🌳
+# City Connect 🌳
 A smart San Jose parks and recreation reservation system.
 
 ## Features
