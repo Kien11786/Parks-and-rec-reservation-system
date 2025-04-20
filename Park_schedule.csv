@@ -1,0 +1,12 @@
+park_name,date,time_slot,status
+River Glen Park,2025-04-15,9AM-11AM,available
+River Glen Park,2025-04-15,11AM-1PM,available
+Roosevelt Park,2025-04-15,9AM-11AM,available
+Roosevelt Park,2025-04-15,11AM-1PM,available
+Watson Park,2025-04-16,10AM-12PM,booked
+Watson Park,2025-04-16,1PM-3PM,booked
+park_name,date,time_slot,status
+Almaden Lake Park,2025-04-17,9AM-11AM,available
+Willow Glen Park,2025-04-17,11AM-1PM,available
+Emma Prusch Farm Park,2025-04-17,1PM-3PM,available
+Happy Hollow Park,2025-04-18,10AM-12PM,booked
