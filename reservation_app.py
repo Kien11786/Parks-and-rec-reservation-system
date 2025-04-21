@@ -96,7 +96,7 @@ import openai
 from openai import OpenAI
 
 # New API client object
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API KEY HERE")
 
 # Chat UI
 user_input = st.chat_input("Ask a question about park rules, hours, or reservations...")

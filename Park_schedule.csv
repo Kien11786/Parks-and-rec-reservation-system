@@ -2,13 +2,13 @@ park_name,date,time_slot,status
 River Glen Park,2025-05-01,9AM-11AM,available
 River Glen Park,2025-05-01,11AM-1PM,available
 River Glen Park,2025-05-01,1PM-3PM,available
-Roosevelt Park,2025-05-01,9AM-11AM,available
+Roosevelt Park,2025-05-01,9AM-11AM,booked
 Roosevelt Park,2025-05-01,11AM-1PM,available
 Roosevelt Park,2025-05-01,1PM-3PM,booked
 Watson Park,2025-05-01,9AM-11AM,available
 Watson Park,2025-05-01,11AM-1PM,available
 Watson Park,2025-05-01,1PM-3PM,available
-Almaden Lake Park,2025-05-01,9AM-11AM,available
+Almaden Lake Park,2025-05-01,9AM-11AM,booked
 Almaden Lake Park,2025-05-01,11AM-1PM,available
 Almaden Lake Park,2025-05-01,1PM-3PM,available
 Happy Hollow Park,2025-05-01,9AM-11AM,available
@@ -26,9 +26,9 @@ Municipal Rose Garden,2025-05-01,1PM-3PM,available
 Willow Glen Park,2025-05-01,9AM-11AM,available
 Willow Glen Park,2025-05-01,11AM-1PM,available
 Willow Glen Park,2025-05-01,1PM-3PM,available
-Cataldi Park,2025-05-01,9AM-11AM,available
-Cataldi Park,2025-05-01,11AM-1PM,available
-Cataldi Park,2025-05-01,1PM-3PM,available
+Cataldi Park,2025-05-01,9AM-11AM,booked
+Cataldi Park,2025-05-01,11AM-1PM,booked
+Cataldi Park,2025-05-01,1PM-3PM,booked
 Almaden Community Center,2025-05-01,9AM-11AM,available
 Almaden Community Center,2025-05-01,11AM-1PM,available
 Almaden Community Center,2025-05-01,1PM-3PM,available
