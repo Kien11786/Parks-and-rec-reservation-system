@@ -93,20 +93,18 @@ if st.button("🛠️ Submit Report"):
 
 # ------------------- Chatbot Assistant -------------------
 import openai
-from openai import OpenAI
+import streamlit as st
 
-# New API client object
-client = OpenAI(api_key="API KEY HERE")
+# Load API key from secrets
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-# Chat UI
 user_input = st.chat_input("Ask a question about park rules, hours, or reservations...")
 
 if user_input:
-    with st.chat_message("user"):
-        st.write(user_input)
+    st.chat_message("user").write(user_input)
 
     with st.chat_message("assistant"):
-        response = client.chat.completions.create(
+        response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a helpful San Jose park assistant."},
@@ -114,3 +112,4 @@ if user_input:
             ]
         )
         st.write(response.choices[0].message.content)
+
